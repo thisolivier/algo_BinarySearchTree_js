@@ -1,0 +1,9 @@
+{
+  "name": "bst_fun",
+  "version": "0.0.2",
+  "description": "Playing about with BSTs",
+  "main": "index.js",
+  "repository": "git@github.com:thisolivier/algo_BinarySearchTree_js.git",
+  "author": "Olivier Butler <olivier.butler@gmail.com>",
+  "license": "MIT"
+}
