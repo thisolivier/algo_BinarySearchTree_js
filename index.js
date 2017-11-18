@@ -4,8 +4,9 @@ var Bst = require ("./js/classBst")
 var d3 = require("d3")
 
 var app = express()
-app.set('views', __dirname + '/views')
-app.set('view engine', 'ejs')
+
+// Tomorrow's project
+// https://alligator.io/vuejs/basic-ssr/
 
 // const makeDummyBst = () => {
 //     let myBst = new Bst()
@@ -24,7 +25,7 @@ app.set('view engine', 'ejs')
 
 
 app.get('/', function(request, response){
-    response.render('index')
+    response.send("<h1>Please hold</h1>")
 })
 app.listen(8882, function(){
     console.log("We're listening on port 8882!")
