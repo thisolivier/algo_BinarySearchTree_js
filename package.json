@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:thisolivier/algo_BinarySearchTree_js.git",
   "author": "Olivier Butler <olivier.butler@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "d3": "^4.11.0"
+  }
 }
