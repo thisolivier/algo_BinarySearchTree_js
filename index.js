@@ -4,7 +4,8 @@ var Bst = require ("./js/classBst")
 var d3 = require("d3")
 
 var app = express()
-app.use(express.static(__dirname + "/static"))
+app.set('views', __dirname + '/views')
+app.set('view engine', 'ejs')
 
 // const makeDummyBst = () => {
 //     let myBst = new Bst()
@@ -23,7 +24,7 @@ app.use(express.static(__dirname + "/static"))
 
 
 app.get('/', function(request, response){
-    response.send("<h1>Hi Guys!</h1>")
+    response.render('index')
 })
 app.listen(8882, function(){
     console.log("We're listening on port 8882!")
