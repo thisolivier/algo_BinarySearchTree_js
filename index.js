@@ -1,9 +1,10 @@
 // My imports
-import express from "express"
-import Bst from "./classBst.js";
-import * as d3 from require("d3");
+var express = require("express")
+var Bst = require ("./js/classBst")
+var d3 = require("d3")
 
 var app = express()
+app.use(express.static(__dirname + "/static"))
 
 // const makeDummyBst = () => {
 //     let myBst = new Bst()

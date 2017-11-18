@@ -7,6 +7,7 @@
   "author": "Olivier Butler <olivier.butler@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "d3": "^4.11.0"
+    "d3": "^4.11.0",
+    "ejs": "^2.5.7"
   }
 }

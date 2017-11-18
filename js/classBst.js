@@ -1,4 +1,4 @@
-export class Bst{
+class Bst{
     constructor(){
         this.root = null
     }
@@ -31,4 +31,6 @@ Bst.prototype.add = (val, bst) => {
     }
     return bst
 }
+
+module.exports.Bst = Bst
 
